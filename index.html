@@ -4,36 +4,102 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>The Line Athens</title>
-</head>
-<body class="body">
+  <title>Your Linktree</title>
+  <style>
+    
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
 
+.logo-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 130px;
+    border-radius: 50%;
+  }
+
+.link-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#button1 {
+  display: block;
+  padding: 35px 30px; /* Adjusted padding for the first button */
+  margin: 10px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+}
+
+#button2,
+#button3 {
+  display: block;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: #2ecc71; /* Different color for buttons 2 and 3 */
+  color: #fff;
+}
+
+#button4 {
+  display: block;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: #e74c3c; /* Different color for the last button */
+  color: #fff;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+}
+
+
+</style>
+</head>
+<body>
+  <!-- Profile name-->
+  <img class="logo-center" src="media/logo.jpg" alt="Logo">
 
   <div class="link-container">
-
-       
-    <!-- Profile name-->
-    <img class="logo-center" src="media/logo.jpg" alt="Logo">
-
-    <!-- Links-->
-    <a href="#" class="menu-button">Menu</a>
+    <a href="#" class="button" id="button1">Button 1</a>
     <div class="button-group">
-      <a href="#" class="button-group-buttons">Instagram</a>
-      <a href="#" class="button-group-buttons">Google</a>
+      <a href="#" class="button" id="button2">Button 2</a>
+      <a href="#" class="button" id="button3">Button 3</a>
     </div>
-    <a href="#" class="lower-button">Facebook</a>
-    <a href="#" class="last-button">Website</a>
+    <a href="#" class="button" id="button4">Button 4</a>
+  </div>
 
     <!-- Footer-->
     <footer class="footer">
-      <p>Contact us:</p>
-      <p>Email: info@example.com</p>
-      <p>Phone: +1 123-456-7890</p>
+        <p>Contact us:</p>
+        <p>Email: info@example.com</p>
+        <p>Phone: +1 123-456-7890</p>
     </footer>
-  </div>
-
-
-
+    
 
 </body>
 </html>
