@@ -1,5 +1,6 @@
 body {
-    font-family: fantasy, sans-serif;
+    font-family: Chalkduster, fantasy;
+    font-size: 12;
     margin: 0;
     padding: 0;
     display: flex;
@@ -38,13 +39,14 @@ body {
    /* buttons 2 and 3 */
   .button-group-buttons {
     display: block;
-    padding: 40px 70px;
+    padding: 40px 50px;
     margin: 10px;
     text-decoration: none;
     background-color: white;
     color: black;
     border: 1px solid black;
     border-width: 2px;
+    width: auto;
   }
 
   .button-group-buttons:hover {
@@ -101,7 +103,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top:100px;
     margin-bottom: 20px;
     width: 170px;
     border-radius: 50%;
